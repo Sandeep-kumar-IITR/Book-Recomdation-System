@@ -4,11 +4,11 @@ import numpy as np
 import os
 
 
-popular_df = pickle.load(open(r"project\popular.pkl","rb"))
-pt = pickle.load(open(r'project\pt.pkl','rb'))
+popular_df = pickle.load(open(r"popular.pkl","rb"))
+pt = pickle.load(open(r'pt.pkl','rb'))
 
-books = pickle.load(open(r"project\file.pkl","rb"))
-similarity_scores = pickle.load(open(r"project\similarity_scores.pkl",'rb'))
+books = pickle.load(open(r"file.pkl","rb"))
+similarity_scores = pickle.load(open(r"similarity_scores.pkl",'rb'))
 
 app = Flask(__name__)
 
